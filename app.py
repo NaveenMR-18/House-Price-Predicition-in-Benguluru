@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load trained model
-model = joblib.load("naveen_model.joblib")  # change filename if needed
+model = joblib.load("naveen_model.joblib")  
 
 # List of locations
 locations = [
